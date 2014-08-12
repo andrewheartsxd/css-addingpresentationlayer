@@ -1,3 +1,11 @@
+.title {
+  font-size: 600%;
+  font-family: Myriad Pro;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  text-align: center;
+}
+
 
 .navList {
   border:1px solid #ccc;
@@ -23,10 +31,24 @@
   height: 5%;
 }
 
-.mainItem {
+.navListSocialMedia {
+  list-style:none;
+}
+.navListSocialMedia li {
+  display:inline;
+}
+.navListSocialMedia img {
+  display: inline-block;
+  padding: 10px;
+  width: 10%;
+  height: 10%;
+}
+
+.mainHead {
   font-size: 150%;
   font-weight: bold;
 }
+
 
 .schedList {
   list-style:none;
@@ -34,4 +56,73 @@
 
 .day {
   font-weight: bold;
+}
+
+.address:before {
+  content: "\00a0 \00a0 \00a0 \00a0";
+}
+
+#location {
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 550px;
+  height: 375px;
+}
+
+#image1 {
+  width: 35%;
+  height: 35%;
+  content:url(http://i.imgur.com/D4MDAVR.jpg);
+}
+#image2 {
+  width: 40%;
+  height: 40%;
+  content:url(http://i.imgur.com/bTG80fC.jpg);
+}
+#image3 {
+  width: 50%;
+  height: 50%;
+  content:url(http://i.imgur.com/17zQVCs.jpg);
+}
+#image4 {
+  width: 20%;
+  height: 20%;
+  content:url(http://i.imgur.com/8JmcOFA.jpg);
+}
+#image5 {
+  width: 35%;
+  height: 35%;
+  content:url(http://i.imgur.com/1voUdtS.jpg);
+}
+#image6 {
+  width: 40%;
+  height: 40%;
+  content:url(http://i.imgur.com/COIATtm.jpg);
+}
+#image7 {
+  width: 40%;
+  height: 40%;
+  content:url(http://i.imgur.com/4Yqj22d.jpg);
+}
+#image8 {
+  width: 40%;
+  height: 40%;
+  content:url(http://i.imgur.com/UDtiTOW.jpg);
+}
+
+.left {
+  display:inline-block;
+  margin-left: 20px;
+}
+.imageHolder {
+  text-align: center;
+}
+
+.footer{
+  margin-top: 50px;
+  border:1px solid #ccc;
+  border-width:1px 0;
+  text-align: center;
+  font-style: italic;
 }
