@@ -10,3 +10,4 @@ Elements I knew I wanted to include:
 
 I used Normalize.css because I wanted to preserve useful defaults just in case over unstyling everything.
 
+Sources include: Google, W3Schools, & Stack Overflow
